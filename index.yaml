@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  secondhelmrepo:
+  secondhelmchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-22T13:24:07.049738797-08:00"
+    created: "2021-11-22T13:44:08.499442183-08:00"
     description: A Helm chart for Kubernetes
-    digest: e5d6d58652882c912ca7fbb778569ab31e1c33c878e51182344c1e18f701bfd8
-    name: secondhelmrepo
+    digest: b67fbb164b260c97e53f851a8dcfc3e74347a602a92116028aea6bc2092999aa
+    name: secondhelmchart
     type: application
     urls:
-    - https://msftjonw.github.io/secondhelmrepo/secondhelmrepo-0.1.0.tgz
+    - https://msftjonw.github.io/secondhelmrepo/secondhelmchart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-22T13:24:07.038583047-08:00"
+generated: "2021-11-22T13:44:08.494825294-08:00"
