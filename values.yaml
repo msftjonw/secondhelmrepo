@@ -11,8 +11,13 @@ image:
   tag: ""
 
 imagePullSecrets: []
-nameOverride: ""
+nameOverride: "secondhelmrepo"
 fullnameOverride: ""
+
+env:
+  - name: service_name
+    value: 'NGINX-BACKEND'
+
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -37,7 +42,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
 
 ingress:
